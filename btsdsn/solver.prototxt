@@ -1,0 +1,17 @@
+net: "./prototxt/bts_dsn_train.prototxt"
+test_initialization:false
+test_iter: 0
+test_interval: 10000000
+display: 2000
+# lr for fine-tuning should be lower than when starting from scratch
+base_lr: 1e-8
+lr_policy: "fixed"
+momentum: 0.9
+weight_decay: 0.0005
+
+# snapshot caffemodel solverstate
+snapshot: 2000
+snapshot_prefix: "./snapshot/"
+# uncomment the following to default to CPU mode solving
+solver_mode: GPU 
+max_iter: 42000
