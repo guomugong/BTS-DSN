@@ -1,5 +1,5 @@
 ## BTS-DSN: Deeply Supervised Neural Network with Short Connections for Retinal Vessel Segmentation
-Please read our [paper] (https://doi.org/10.1016/j.ijmedinf.2019.03.015) for more details!
+Please read our [paper](https://doi.org/10.1016/j.ijmedinf.2019.03.015) for more details!
 ### Introduction:
 Background and Objective: The condition of vessel of the human eye is an important factor for the diagnosis of ophthalmological diseases. Vessel segmentation in fundus images is a challenging task due to complex vessel structure, the presence of similar structures such as microaneurysms and hemorrhages, micro-vessel with only one to several pixels wide, and requirements for finer results.
 Methods:In this paper, we present a multi-scale deeply supervised network with short connections (BTS-DSN) for vessel segmentation. We used short connections to transfer semantic information between side-output layers. Bottom-top short connections pass low level semantic information to high level for refining results in high-level side-outputs, and top-bottom short connection passes much structural information to low level for reducing noises in low-level side-outputs. In addition, we employ cross-training to show that our model is suitable for real world fundus images.
